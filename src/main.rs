@@ -17,7 +17,7 @@ struct Args {
     warranty: f32,
 }
 
-/// A little app to easily convert TBW (total bytes written) to DWPD
+/// A little app to easily convert TBW (terabytes written) to DWPD
 /// (drive writes per day).
 fn main() {
     let args = Args::parse();
